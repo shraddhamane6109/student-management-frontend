@@ -1,34 +1,43 @@
-# Student Management System - Frontend
+# 🎓 Student Management System - Frontend
 
-React frontend for Student Management System with authentication and student CRUD operations.
+A React-based frontend for the Student Management System with authentication and full CRUD operations. This application connects to a Spring Boot REST API backend.
 
-## Features
-
-### Authentication
-- Login Page
-- Register Page
-- Logout
-- Protected Dashboard
-
-### Student Management
-- Add Student
-- View Students
-- Update Student
-- Delete Student
+🔗 Backend Repository
+https://github.com/shraddhamane6109/student-management-backend
 
 ---
 
-## Tech Stack
+# 🚀 Features
 
-- React
-- React Router DOM
-- Axios
-- Tailwind CSS
-- Vite
+## 🔐 Authentication
+
+* User Login
+* User Registration
+* Logout
+* Protected Dashboard Route
+
+## 👨‍🎓 Student Management
+
+* Add Student
+* View Student List
+* Update Student
+* Delete Student
+* Full CRUD Operations
 
 ---
 
-## Project Structure
+# 🛠️ Tech Stack
+
+* React
+* React Router DOM
+* Axios
+* Tailwind CSS
+* Vite
+* JavaScript
+
+---
+
+# 📁 Project Structure
 
 ```
 src
@@ -45,9 +54,9 @@ src
 
 ---
 
-## API Configuration
+# 🔌 API Configuration
 
-Backend base URL is configured in:
+Backend base URL configured in:
 
 ```
 src/api.js
@@ -57,25 +66,25 @@ src/api.js
 baseURL: "http://localhost:8080"
 ```
 
-Change this when deploying backend.
+Change this URL when deploying backend.
 
 ---
 
-## How to Run
+# ▶️ How to Run
 
-### 1. Install dependencies
+## 1. Install dependencies
 
 ```
 npm install
 ```
 
-### 2. Run frontend
+## 2. Start development server
 
 ```
 npm run dev
 ```
 
-App runs at:
+Application runs at:
 
 ```
 http://localhost:5173
@@ -83,18 +92,18 @@ http://localhost:5173
 
 ---
 
-## Pages
+# 📄 Pages
 
-- Login Page
-- Register Page
-- Dashboard
-- Student CRUD UI
+* Login Page
+* Register Page
+* Dashboard
+* Student CRUD Interface
 
 ---
 
-## Backend Requirement
+# ⚠️ Backend Requirement
 
-Backend must run on:
+Backend server must be running at:
 
 ```
 http://localhost:8080
@@ -102,31 +111,40 @@ http://localhost:8080
 
 ---
 
-## Author
+# 📸 Screenshots
 
-Shraddha Mane
+## Login Page
+
+![Login](screenshots/login.png)
+
+## Register Page
+
+![Register](screenshots/register.png)
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+## Update Student
+
+![Update Student](screenshots/update.png)
 
 ---
 
-## Future Improvements
+# 🔮 Future Improvements
 
-- Better UI design
-- Toast notifications
-- Form validation
-- Loading spinner
-- Role based UI
-- Deployment
+* Form validation
+* Toast notifications
+* Loading spinner
+* Role-based authentication
+* Responsive UI improvements
+* Deployment (Netlify / Vercel)
 
-## Screenshots
+---
 
-### Login Page
-![Login](screenshots/login.png)
+# 👩‍💻 Author
 
-### Register Page
-![Register](screenshots/register.png)
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Update Student
-![Update Student](screenshots/update.png)
+Shraddha Mane
+MCA Student (2027)
+Full Stack Developer
+React | Java | Spring Boot | MySQL
